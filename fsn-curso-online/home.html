@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="indigo darken-3">
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <div class="nav-wrapper container">
+          <div class="brand-logo light">Materialize</div>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Home</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+
+          <ul id="slide-out" class="sidenav">
+            <li>
+              <a href=""
+                ><i class="material-icons left deep-orange-text">person</i
+                >Pessoa</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons left pink-text">email</i>Email</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons left deep-purple-text">phone</i
+                >Telefone</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./assets/slide-1.jpg" alt="" />
+
+            <div class="caption center-align">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                eveniet!
+              </h5>
+            </div>
+          </li>
+
+          <li>
+            <img src="./assets/slide-2.jpg" alt="" />
+
+            <div class="caption right-align">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                eveniet!
+              </h5>
+            </div>
+          </li>
+
+          <li>
+            <img src="./assets/slide-3.jpg" alt="" />
+
+            <div class="caption left-align">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                eveniet!
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <p>&nbsp;</p>
+
+    <section class="row">
+      <div class="col s12 l6 push-l3">
+        <h5 class="indigo-text center-align">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor nemo
+          nobis quia.
+        </h5>
+        <p class="center-align flow-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo,
+          doloremque ipsum alias repellendus eius. Culpa, alias nam animi quasi
+          tenetur perspiciatis atque doloribus repudiandae.
+        </p>
+      </div>
+    </section>
+
+    <p>&nbsp;</p>
+
+    <section class="row container">
+      <section class="card">
+        <div class="col s12 m6 l4">
+          <div class="card-image">
+            <img
+              src="./assets/card-1.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+            />
+            <span class="card-title">Lorem, ipsum dolor.</span>
+          </div>
+
+          <div class="card-content">
+            <span class="card-title">Lorem, ipsum dolor.</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              amet velit fugiat molestias quas nesciunt excepturi necessitatibus
+              eaque deleniti reiciendis?
+            </p>
+          </div>
+
+          <div class="card-action">
+            <a href="#" class="btn btn-small indigo">saiba mais</a>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card-image">
+            <img
+              src="./assets/card-2.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+            />
+            <span class="card-title">Lorem, ipsum dolor.</span>
+          </div>
+
+          <div class="card-content">
+            <span class="card-title">Lorem, ipsum dolor.</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              amet velit fugiat molestias quas nesciunt excepturi necessitatibus
+              eaque deleniti reiciendis?
+            </p>
+          </div>
+
+          <div class="card-action">
+            <a href="#" class="btn btn-small indigo">saiba mais</a>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card-image">
+            <img
+              src="./assets/card-3.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+            />
+            <span class="card-title">Lorem, ipsum dolor.</span>
+          </div>
+
+          <div class="card-content">
+            <span class="card-title">Lorem, ipsum dolor.</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              amet velit fugiat molestias quas nesciunt excepturi necessitatibus
+              eaque deleniti reiciendis?
+            </p>
+          </div>
+
+          <div class="card-action">
+            <a href="#" class="btn btn-small indigo">saiba mais</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <p>&nbsp;</p>
+
+    <section class="row container">
+      <section class="col s12">
+        <div class="divider"></div>
+      </section>
+    </section>
+
+    <section class="row container">
+      <section class="col s12">
+        <h4 class="light indigo-text">Lorem ipsum dolor sit amet.</h4>
+        <p class="flow-text light" style="text-align: justify">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          deserunt nam eaque eius reiciendis ut minus tempore ex voluptates,
+          voluptatem vero reprehenderit architecto molestias sequi.
+        </p>
+
+        <p>
+          <a href="#modal" class="btn btn-small orange modal-trigger"
+            >saiba mais</a
+          >
+        </p>
+      </section>
+    </section>
+
+    <section class="modal" id="modal">
+      <section class="modal-content">
+        <h4 class="light indigo-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing.
+        </h4>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius?</h6>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          molestiae dolorum ipsam laborum provident odio dolorem, dolores,
+          quibusdam expedita nam sapiente dignissimos iusto quia cum delectus
+          consectetur iste illum impedit?
+        </p>
+        <p>
+          <a href="#" class="btn btn-small orange">Cadastre-se</a>
+        </p>
+      </section>
+    </section>
+
+    <p>&nbsp;</p>
+
+    <section class="parallax-container">
+      <section class="parallax">
+        <img src="./assets/parallax.jpg" alt="" />
+      </section>
+    </section>
+
+    <p>&nbsp;</p>
+
+    <section class="row container">
+      <section class="col s12">
+        <h5 class="indigo-text">Lorem, ipsum dolor.</h5>
+        <p class="flow-text light">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+          rem dolore eveniet veniam magni, optio hic reprehenderit voluptates
+          laboriosam facere necessitatibus id repudiandae libero corporis nemo
+          officia sint consectetur unde?
+        </p>
+      </section>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
